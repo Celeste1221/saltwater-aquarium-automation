@@ -1,0 +1,26 @@
+# Credentials and configuration
+.env
+.env.*
+!.env.example
+secrets.py
+settings.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Development outputs
+*.log
+coverage.xml
+.coverage
