@@ -26,7 +26,7 @@ Reef aquariums rely on stable water conditions. Monitoring, trending, alerting, 
 1. Use Raspberry Pi OS and enable the 1-Wire interface for DS18B20.
 2. Create a virtual environment and install `pip install -r requirements.txt` plus `gpiozero` for the water-level example.
 3. Create Adafruit IO feeds `temperature` and `water-level`.
-4. Set `ADAFRUIT_IO_USERNAME` and `ADAFRUIT_IO_KEY` as environment variables (see `.env.example`, which is **not** loaded automatically).
+4. Set `ADAFRUIT_IO_USERNAME` and `ADAFRUIT_IO_KEY` as environment variables 
 5. From `src/raspberry_pi`, run `python temperature_to_adafruit_io.py` or `python water_level_to_adafruit_io.py` after verifying GPIO and electrical connections.
 
 ## Development timeline / next steps
