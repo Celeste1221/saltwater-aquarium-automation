@@ -1,0 +1,3 @@
+Adafruit-IO>=2.8,<3
+# Install gpiozero on the Raspberry Pi for optical water-level sensor:
+# gpiozero>=2,<3
